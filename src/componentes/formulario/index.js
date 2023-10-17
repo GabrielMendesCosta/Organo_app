@@ -1,3 +1,4 @@
+import Botao from '../botao'
 import CampoTexto from '../campoTexto'
 import ListaSuspensa from '../listaSuspensa'
 import './formulario.css'
@@ -22,6 +23,7 @@ function Formulario(){
                 <CampoTexto label="Cargo" placeholder="Digite o seu cargo"/>
                 <CampoTexto label="Imagem" placeholder="Digite o endereço da imagem"/>
                 <ListaSuspensa label ="Time" itens={times}/>
+                <Botao texto="Criar card"/>
             </form>
         </section>
     )
