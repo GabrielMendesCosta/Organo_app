@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './componentes/banner';
 import Formulario from './componentes/formulario';
 import Time from './componentes/time';
+import Rodape from './componentes/rodape';
 
 function App() {
 
@@ -53,6 +54,8 @@ function App() {
         corSecundaria={time.corSecundaria}
         colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
       />)}
+
+      <Rodape />
     </div>
   );
 }
