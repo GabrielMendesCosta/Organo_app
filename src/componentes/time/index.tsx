@@ -1,7 +1,6 @@
 import { IColaborador } from "../../compartilhado/interfaces/IColaborador"
 import Colaborador from "../colaborador"
 import "./time.css"
-import React from 'react'
 
 interface TimeProps{
     corPrimaria: string
